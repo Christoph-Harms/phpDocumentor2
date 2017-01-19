@@ -32,7 +32,7 @@
         "phpdocumentor/graphviz":            "^1.0",
         "phpdocumentor/fileset":             "^1.0",
         "phpdocumentor/reflection":          "dev-develop@dev",
-        "phpdocumentor/reflection-docblock": "^3.0",
+        "phpdocumentor/reflection-docblock": "dev-bugfix as 3.1.1",
         "phpdocumentor/flyfinder":           "^1.0@dev",
         "league/tactician":                  "^0.6.0",
         "league/flysystem":                  "^1.0",
@@ -48,6 +48,12 @@
         "phing/phing": "^2.13",
         "phpunit/phpunit": "^5.6"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:Christoph-Harms/ReflectionDocBlock.git"
+        }
+    ],
     "suggest": {
         "ext-twig": "Enabling the twig extension improves the generation of twig based templates.",
         "ext-xslcache": "Enabling the XSLCache extension improves the generation of xml based templates."
