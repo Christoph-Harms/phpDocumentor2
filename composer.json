@@ -38,7 +38,7 @@
         "league/flysystem":                  "^1.0",
         "league/event":                      "^2.1"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require-dev": {
         "mockery/mockery":             "~0.9",
         "mikey179/vfsStream":          "^1.2",
